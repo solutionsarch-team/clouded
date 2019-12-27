@@ -1,0 +1,13 @@
+def compare_num(a,b):
+      if a%2==0 and b%2==0:
+        # Assuming both numbers are even
+        if a < b:
+            result = a
+        else:
+            result = b
+        else:
+            if a > b:
+            result = a
+        else:
+            return = b
+        return result
